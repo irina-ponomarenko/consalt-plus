@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Blog-post</title>
+    <link href="fonts/Domine-Regular.ttf" rel="stylesheet"/>
+    <link href="fonts/Montserrat-Regular.otf" rel="stylesheet"/>
+    <link href="node_modules/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+    <link href="node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet"/>
+    <link href="styles/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header">
+    <div class="nav-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" align="logo"/>
+            </div>
+            <div class="menu">
+                <button type="button" id="btn-click-menu"><span class="icon-menu"></span></button>
+                <ul class="navigation">
+                    <li class="nav-li"><a href="">Home</a></li>
+                    <li class="nav-li"><a href="">about us</a></li>
+                    <li class="nav-li"><a href="">industry</a></li>
+                    <li class="nav-li"><a href="">services</a></li>
+                    <li class="nav-li active"><a href="">pages</a></li>
+                    <li class="nav-li"><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div id="modal_form">
+                <span id="modal_close">X</span>
+                <ul class="navigation-min">
+                    <li class="nav-li active"><a href="">Home</a></li>
+                    <li class="nav-li"><a href="">about us</a></li>
+                    <li class="nav-li"><a href="">industry</a></li>
+                    <li class="nav-li"><a href="">services</a></li>
+                    <li class="nav-li"><a href="">pages</a></li>
+                    <li class="nav-li"><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div id="overlay"></div>
+            <div class="contact-nav">
+                <div class="phone">
+                    <span class="icon-call-out"></span>
+                    <a href="tell:9156856664555">+91 5685 6664 555</a>
+                </div>
+                <div class="mail">
+                    <a href="">
+                        <span class="icon-envelope-open"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="welcome-massege">
+        <h2>blog</h2>
+    </div>
+</header>
+<section class="blog-post">
+    <div class="container">
+        <h2>Blog post</h2>
+        <div class="card card-masonry">
+            <button type="button" class="img-title after-img">
+                <p>Business</p>
+                <i class="fa fa-picture-o" aria-hidden="true"></i>
+            </button>
+            <img class="card-img-top" src="images/blog-post.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Blog Heading Here</h5>
+                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                <ul class="list-card-blog">
+                    <li> <i class="fa fa-check" aria-hidden="true"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i>Proin tempus ipsum vitae velit convallis venenatis.</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i>Curabitur vel felis pretium, blandit arcu in, sollicitudin ipsum.</li>
+                </ul>
+            </div>
+            <div class="sub-card">
+                <img src="images/sub-img.jpg" alt="card image">
+                <p>Printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+            </div>
+            <div class="share-social">
+                <div class="social-block">
+                    <ul class="social">
+                        <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="share-card">
+                    <span class="icon-share"></span>
+                </div>
+            </div>
+        </div>
+        <div class="card-bottom">
+            <h5>Related Post</h5>
+            <div class="card-list-post">
+                <div class="card-post-wrapper">
+                    <img src="images/card-post-1.jpg" alt="card image"/>
+                    <div class="card-post-footer">
+                        <h3>Blog Heading Here</h3>
+                        <p>11-feb-2016</p>
+                    </div>
+                </div>
+                <div class="card-post-wrapper">
+                    <img src="images/card-post-2.jpg" alt="card image"/>
+                    <div class="card-post-footer">
+                        <h3>Blog Heading Here</h3>
+                        <p>11-feb-2016</p>
+                    </div>
+                </div>
+                <div class="card-post-wrapper">
+                    <img src="images/card-post-3.jpg" alt="card image"/>
+                    <div class="card-post-footer">
+                        <h3>Blog Heading Here</h3>
+                        <p>11-feb-2016</p>
+                    </div>
+                </div>
+                <div class="card-post-wrapper">
+                    <img src="images/card-post-4.jpg" alt="card image"/>
+                    <div class="card-post-footer">
+                        <h3>Blog Heading Here</h3>
+                        <p>11-feb-2016</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="comunication">
+        <div class="comments">
+            <div class="container">
+            <h2>Comments</h2>
+            <ul class="coment-list">
+                <li class="coment-li">
+                    <div class="coment-img">
+                        <img src="images/coment-1.jpg" alt="coment image"/>
+                    </div>
+                    <div class="text-coment">
+                        <div class="wrapper-coment-text">
+                            <h5>visitor name</h5>
+                            <button type="button" class="btn-back reply">reply</button>
+                        </div>
+                        <p>All the Lorem Ipsum generators on the Internet tend to
+                            repeat predefined chunks as necessary, making this </p>
+                    </div>
+                </li>
+                <li class="coment-li center-coment">
+                    <div class="coment-img">
+                        <img src="images/coment-2.jpg" alt="coment image"/>
+                    </div>
+                    <div class="text-coment">
+                        <div class="wrapper-coment-text">
+                            <h5>visitor name</h5>
+                            <button type="button" class="btn-back reply">reply</button>
+                        </div>
+                        <p>There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some</p>
+                    </div>
+                </li>
+                <li class="coment-li">
+                    <div class="coment-img">
+                        <img src="images/coment-3.jpg" alt="coment image"/>
+                    </div>
+                    <div class="text-coment">
+                        <div class="wrapper-coment-text">
+                            <h5>visitor name</h5>
+                            <button type="button" class="btn-back reply">reply</button>
+                        </div>
+                        <p>It has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially</p>
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </div>
+        <div class="message">
+            <div class="container-1">
+            <h2>leave message</h2>
+            <form class="message-list">
+                <div class="wrapper-input-comment">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <textarea placeholder="comment" rows="10"></textarea>
+                <button type="submit" class="btn-back comment-btn">submit comment</button>
+            </form>
+        </div>
+        </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="top-footer">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo"/>
+            </div>
+            <ul class="top-footer-list">
+                <li class="">
+                    <h2>navigation</h2>
+                    <ul class="list-nav nav-list">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">about us</a></li>
+                        <li><a href="">industry</a></li>
+                        <li><a href="">services</a></li>
+                        <li><a href="">pages</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </li>
+                <li class="">
+                    <h2>Industary</h2>
+                    <ul class="list-nav industary">
+                        <li><a href="">Education</a></li>
+                        <li><a href="">business</a></li>
+                        <li><a href="">realestate</a></li>
+                        <li><a href="">technology</a></li>
+                        <li><a href="">banking</a></li>
+                        <li><a href="">communication</a></li>
+                        <li><a href="">much more</a></li>
+                    </ul>
+                </li>
+                <li class="news-letter">
+                    <h2>News letter</h2>
+                    <p>Enter your email address to subscribe our notification of our new post & features by email.</p>
+                    <form class="news-letter-form">
+                        <input type="email" placeholder="Email Address">
+                        <button type="submit" class="btn-back subscribe">Subscribe</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom-footer">
+            <p class="copyright">Copyright © 2017 Consultplus theme.</p>
+            <ul class="nav-social-footer">
+                <li><a href="" class="facebook">Facebook</a></li>
+                <li><a href="" class="twitter">twitter</a></li>
+                <li><a href="" class="instagram">instagram</a></li>
+                <li><a href="" class="linkedin">linkedin</a></li>
+                <li><a href="" class="google-plus">google +</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="node_modules/tether/dist/js/tether.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/js.js"></script>
+</body>
+</html>

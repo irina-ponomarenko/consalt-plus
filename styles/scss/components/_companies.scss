@@ -1,0 +1,44 @@
+.b-carousel  {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0 auto;
+}
+.h-carousel-wrapper {
+  width: 90%; /* ширина области карусели */
+  position: relative;
+  overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+  margin: 0 auto; /* выравниваем по центру относительно родительского блока */
+}
+.h-carousel-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.b-carousel-block {
+  float: left; /* выстраиваем все элементы карусели в ряд */
+  width: 210px; /* задаём ширину каждого элемента */
+  padding: 5px 6px; /* делаем оступы, чтобы элементы не сливались */
+  opacity: 0.4;
+  a{
+    img{
+      height: 30px;
+    }
+  }
+}
+.active-img{
+  opacity: 1;
+}
+.a-carousel-image-link { /* тут чисто оформление содержимого */
+  display: block;
+  width: auto;
+  height: 30px;
+  overflow: hidden;
+}
+.b-carousel-button-left, .b-carousel-button-right {
+  width: 28px; /* задаем ширину кнопок */
+  height: 36px; /* задаем высоту кнопок */
+  position: relative;
+  cursor: pointer; /* делаем кнопкам курсор в виде "пальца" */
+}

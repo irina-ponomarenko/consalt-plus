@@ -1,0 +1,124 @@
+body{
+  font-size: 14px;
+  font-family: $family-monserat;
+  line-height: 33px;
+  outline: none;
+  color: $color-white;
+}
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
+  &:focus{
+    text-decoration: none;
+  }
+}
+section{
+  width: 100%;
+  height: auto;
+}
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.about-us{
+  color: $color-black;
+  padding: 100px 0 100px 0;
+  .container{
+    display: flex;
+  }
+}
+.three-card{
+  color: $color-black;
+  background: $color-card-section;
+  padding: 93px 0 93px 0;
+}
+.testimonials{
+  background-color: $color-blue;
+  position: relative;
+  .container{
+    padding: 93px 0 93px 0;
+    &:before{
+      content: '';
+      max-width: 162px;
+      width: 100%;
+      height: auto;
+      background-image: url("../../images/quote-1.png");
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    &:after{
+      content: '';
+      width: 30px;
+      height: 21px;
+      background: url("../../images/quote-2.png") no-repeat;
+      position: absolute;
+      right: 70px;
+      bottom: 170px;
+    }
+  }
+}
+.blog-page{
+  color: $color-black;
+  text-transform: uppercase;
+  padding: 93px 0 93px 0;
+  h2{
+    font-size: $size-h2;
+  }
+  .margin-h2-blog{
+    margin-bottom: 40px;
+  }
+}
+.blog-post{
+  padding: 93px 0 93px 0;
+  color: $color-black;
+  text-transform: uppercase;
+  h2{
+    font-size: $size-h2;
+  }
+}
+.comunication{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  .container, .container-1{
+    max-width: 585px;
+    text-transform: uppercase;
+    font-size: $size-h2;
+  }
+  .container{
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-right: 0;
+  }
+}
+.job{
+  padding: 93px 0 93px 0;
+  .container{
+    text-transform: uppercase;
+    font-size: $size-h2;
+    color: $color-black;
+  }
+}
+.companies{
+  padding: 93px 0 93px 0;
+  background: $color-card-section;
+  .container{
+    text-transform: uppercase;
+    font-size: $size-h2;
+    color: $color-black;
+    text-align: center;
+    p{
+      font-size: $size-small;
+      color: $color-grey-p;
+    }
+  }
+}

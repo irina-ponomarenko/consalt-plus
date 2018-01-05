@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Blog</title>
+    <link href="fonts/Domine-Regular.ttf" rel="stylesheet"/>
+    <link href="fonts/Montserrat-Regular.otf" rel="stylesheet"/>
+    <link href="node_modules/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+    <link href="node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet"/>
+    <link href="styles/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header">
+    <div class="nav-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" align="logo"/>
+            </div>
+            <div class="menu">
+                <button type="button" id="btn-click-menu"><span class="icon-menu"></span></button>
+                <ul class="navigation">
+                    <li class="nav-li"><a href="">Home</a></li>
+                    <li class="nav-li"><a href="">about us</a></li>
+                    <li class="nav-li"><a href="">industry</a></li>
+                    <li class="nav-li"><a href="">services</a></li>
+                    <li class="nav-li active"><a href="">pages</a></li>
+                    <li class="nav-li"><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div id="modal_form">
+                <span id="modal_close">X</span>
+                <ul class="navigation-min">
+                    <li class="nav-li active"><a href="">Home</a></li>
+                    <li class="nav-li"><a href="">about us</a></li>
+                    <li class="nav-li"><a href="">industry</a></li>
+                    <li class="nav-li"><a href="">services</a></li>
+                    <li class="nav-li"><a href="">pages</a></li>
+                    <li class="nav-li"><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div id="overlay"></div>
+            <div class="contact-nav">
+                <div class="phone">
+                    <span class="icon-call-out"></span>
+                    <a href="tell:9156856664555">+91 5685 6664 555</a>
+                </div>
+                <div class="mail">
+                    <a href="">
+                        <span class="icon-envelope-open"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="welcome-massege">
+        <h2>blog</h2>
+    </div>
+</header>
+<section class="blog-page">
+    <div class="container">
+        <h2 class="margin-h2-blog">Blog page</h2>
+        <div class="masonry-blog">
+            <div class="card-columns">
+                <div class="card card-masonry">
+                    <div class="card-body">
+                      <button type="button" class="img-title">
+                          <p>Health</p>
+                          <i class="fa fa-quote-left" aria-hidden="true"></i>
+                      </button>
+                        <h5 class="card-title card-h5">Blog Heading Here</h5>
+                        <p class="card-text card-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+                        <div class="footer-card">
+                            <p class="card-text"><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>5-12-2016</small></p>
+                            <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-3">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <button type="button" class="img-title">
+                            <p>Health</p>
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </button>
+                        <h5 class="card-title card-h5">Blog Heading Here</h5>
+                        <p class="card-text card-p-bloquote card-p">Industry Lorem Ipsum has been the industry's standard dummy text
+                            ever since the 1500s, when an unknown</p>
+                        <div class="footer-card">
+                            <p class="card-text"><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>5-12-2016</small></p>
+                            <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        </div>
+                    </blockquote>
+                </div>
+                <div class="card card-masonry">
+                    <button type="button" class="img-title after-img">
+                        <p>Business</p>
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </button>
+                    <img class="card-img-top" src="images/card-masonry-3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Heading Here</h5>
+                        <p class="card-text">Typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                            the 1500s, when an unknown.</p>
+                        <div class="footer-card">
+                            <p class="card-text"><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>5-12-2016</small></p>
+                            <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-masonry">
+                    <button type="button" class="img-title after-img">
+                        <p>Business</p>
+                        <i class="fa fa-picture-o" aria-hidden="true"></i>
+                    </button>
+                    <img class="card-img-top" src="images/card-masonry-1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Heading Here</h5>
+                        <p class="card-text">Typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                            the 1500s, when an unknown.</p>
+                        <div class="footer-card">
+                            <p class="card-text"><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>5-12-2016</small></p>
+                            <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-masonry">
+                    <div class="card-body">
+                        <button type="button" class="img-title">
+                            <p>Education</p>
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </button>
+                        <h5 class="card-title card-h5">Blog Heading Here</h5>
+                        <p class="card-text card-p">Simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
+                        <div class="footer-card">
+                            <p class="card-text"><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>5-12-2016</small></p>
+                            <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-masonry">
+                    <button type="button" class="img-title after-img">
+                        <p>Technology</p>
+                        <i class="fa fa-picture-o" aria-hidden="true"></i>
+                    </button>
+                    <img class="card-img-top" src="images/card-masonry-6.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Heading Here</h5>
+                        <p class="card-text">Typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                            the 1500s, when an unknown.</p>
+                        <div class="footer-card">
+                            <p class="card-text"><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>5-12-2016</small></p>
+                            <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <button type="button" class="img-title">
+                            <p>Health</p>
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        </button>
+                        <h5 class="card-title card-h5">Blog Heading Here</h5>
+                        <p class="card-text card-p">Typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s, when an unknown.</p>
+                        <div class="footer-card">
+                            <p class="card-text"><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>5-12-2016</small></p>
+                            <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <button type="button" class="img-title after-img">
+                        <p>Business</p>
+                        <i class="fa fa-picture-o" aria-hidden="true"></i>
+                    </button>
+                    <div class="card-busines">
+                        <p class="card-text"><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>5-12-2016</small></p>
+                        <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                    </div>
+                    <img class="card-img" src="images/card-masonry-8.jpg" alt="Card image">
+                </div>
+                <div class="card p-3">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <button type="button" class="img-title">
+                            <p>Health</p>
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </button>
+                        <h5 class="card-title card-h5">Blog Heading Here</h5>
+                        <p class="card-text card-p-bloquote card-p">Industry Lorem Ipsum has been the industry's standard dummy text
+                            ever since the 1500s, when an unknown</p>
+                        <div class="footer-card">
+                            <p class="card-text"><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>5-12-2016</small></p>
+                            <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="nav-blog-page margin-blog-nav">
+            <ul>
+                <li class="circle-blog-nav active_border"><a href="">1</a></li>
+                <li class="circle-blog-nav"><a href="">2</a></li>
+                <li class="circle-blog-nav"><a href="">3</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="top-footer">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo"/>
+            </div>
+            <ul class="top-footer-list">
+                <li class="">
+                    <h2>navigation</h2>
+                    <ul class="list-nav nav-list">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">about us</a></li>
+                        <li><a href="">industry</a></li>
+                        <li><a href="">services</a></li>
+                        <li><a href="">pages</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </li>
+                <li class="">
+                    <h2>Industary</h2>
+                    <ul class="list-nav industary">
+                        <li><a href="">Education</a></li>
+                        <li><a href="">business</a></li>
+                        <li><a href="">realestate</a></li>
+                        <li><a href="">technology</a></li>
+                        <li><a href="">banking</a></li>
+                        <li><a href="">communication</a></li>
+                        <li><a href="">much more</a></li>
+                    </ul>
+                </li>
+                <li class="news-letter">
+                    <h2>News letter</h2>
+                    <p>Enter your email address to subscribe our notification of our new post & features by email.</p>
+                    <form class="news-letter-form">
+                        <input type="email" placeholder="Email Address">
+                        <button type="submit" class="btn-back subscribe">Subscribe</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom-footer">
+            <p class="copyright">Copyright © 2017 Consultplus theme.</p>
+            <ul class="nav-social-footer">
+                <li><a href="" class="facebook">Facebook</a></li>
+                <li><a href="" class="twitter">twitter</a></li>
+                <li><a href="" class="instagram">instagram</a></li>
+                <li><a href="" class="linkedin">linkedin</a></li>
+                <li><a href="" class="google-plus">google +</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="node_modules/tether/dist/js/tether.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/js.js"></script>
+</body>
+</html>
