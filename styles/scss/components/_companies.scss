@@ -6,10 +6,10 @@
   margin: 0 auto;
 }
 .h-carousel-wrapper {
-  width: 90%; /* ширина области карусели */
+  width: 90%;
   position: relative;
-  overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
-  margin: 0 auto; /* выравниваем по центру относительно родительского блока */
+  overflow: hidden;
+  margin: 0 auto;
 }
 .h-carousel-items {
   width: 100%;
@@ -17,9 +17,8 @@
   justify-content: space-between;
 }
 .b-carousel-block {
-  float: left; /* выстраиваем все элементы карусели в ряд */
-  width: 210px; /* задаём ширину каждого элемента */
-  padding: 5px 6px; /* делаем оступы, чтобы элементы не сливались */
+  width: 210px;
+  padding: 5px 6px;
   opacity: 0.4;
   a{
     img{
@@ -30,15 +29,16 @@
 .active-img{
   opacity: 1;
 }
-.a-carousel-image-link { /* тут чисто оформление содержимого */
+.a-carousel-image-link {
   display: block;
   width: auto;
   height: 30px;
   overflow: hidden;
 }
 .b-carousel-button-left, .b-carousel-button-right {
-  width: 28px; /* задаем ширину кнопок */
-  height: 36px; /* задаем высоту кнопок */
+  width: 28px;
+  height: 36px;
   position: relative;
-  cursor: pointer; /* делаем кнопкам курсор в виде "пальца" */
+  cursor: pointer;
+  color: $color-blue;
 }

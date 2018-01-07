@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Home-page</title>
+    <link href="fonts/Domine-Regular.ttf" rel="stylesheet"/>
+    <link href="fonts/Montserrat-Regular.otf" rel="stylesheet"/>
+    <link href="node_modules/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+    <link href="node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet"/>
+    <link href="styles/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header">
+    <div class="nav-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" align="logo"/>
+            </div>
+            <div class="menu">
+                <button type="button" id="btn-click-menu"><span class="icon-menu"></span></button>
+                <ul class="navigation">
+                    <li class="nav-li active"><a href="">Home</a></li>
+                    <li class="nav-li"><a href="">about us</a></li>
+                    <li class="nav-li"><a href="">industry</a></li>
+                    <li class="nav-li"><a href="">services</a></li>
+                    <li class="nav-li"><a href="">pages</a></li>
+                    <li class="nav-li"><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div id="modal_form">
+                <span id="modal_close">X</span>
+                <ul class="navigation-min">
+                    <li class="nav-li active"><a href="">Home</a></li>
+                    <li class="nav-li"><a href="">about us</a></li>
+                    <li class="nav-li"><a href="">industry</a></li>
+                    <li class="nav-li"><a href="">services</a></li>
+                    <li class="nav-li"><a href="">pages</a></li>
+                    <li class="nav-li"><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div id="overlay"></div>
+            <div class="contact-nav">
+                <div class="phone">
+                    <span class="icon-call-out"></span>
+                    <a href="tell:9156856664555">+91 5685 6664 555</a>
+                </div>
+                <div class="mail">
+                    <a href="">
+                        <span class="icon-envelope-open"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="welcome-massege home-message">
+        <div class="container">
+            <p>We are leading consulting company</p>
+            <h2>Choose your industry</h2>
+            <div id="carouselExampleIndicators" class="carousel slide width-all" data-ride="carousel">
+                <ol class="carousel-indicators indicators-header">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <ul class="indastry">
+                            <li class="card-header-baner">
+                                <a href=""><p class="education">Education</p></a>
+                            </li>
+                            <li class="card-header-baner">
+                                <a href=""><p class="business">Business</p></a>
+                            </li>
+                            <li class="card-header-baner">
+                                <a href=""><p class="technology">Technology</p></a>
+                            </li>
+                            <li class="card-header-baner">
+                                <a href=""><p class="banking">Banking</p></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="carousel-item">
+                        <ul class="indastry">
+                            <li class="card-header-baner">
+                                <a href=""><p class="education">Education</p></a>
+                            </li>
+                            <li class="card-header-baner">
+                                <a href=""><p class="business">Business</p></a>
+                            </li>
+                            <li class="card-header-baner">
+                                <a href=""><p class="technology">Technology</p></a>
+                            </li>
+                            <li class="card-header-baner">
+                                <a href=""><p class="banking">Banking</p></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="carousel-item">
+                        <ul class="indastry">
+                            <li class="card-header-baner">
+                                <a href=""><p class="education">Education</p></a>
+                            </li>
+                            <li class="card-header-baner">
+                                <a href=""><p class="business">Business</p></a>
+                            </li>
+                            <li class="card-header-baner">
+                                <a href=""><p class="technology">Technology</p></a>
+                            </li>
+                            <li class="card-header-baner">
+                                <a href=""><p class="banking">Banking</p></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="about-us">
+    <div class="container about-container border-about">
+        <header class="sections-header">
+            <h2>About us</h2>
+        </header>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+        <button type="button" class="btn-back apply margin-bottom">Read More</button>
+    </div>
+    <div class="container">
+        <div class="b-carousel margin-top"> <!-- контейнер, в котором будет карусель -->
+
+            <div class="b-carousel-button-left icon-arrow-left-circle"></div> <!-- левая кнопка -->
+
+            <div class="h-carousel-wrapper"> <!-- видимая область карусели -->
+                <div class="h-carousel-items"> <!-- весь набор элементов карусели -->
+
+                    <div class="b-carousel-block active-img"> <!-- первый элемент карусели -->
+                        <a href="#" class="a-carousel-image-link">
+                            <img src="images/codecanyon.png" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="b-carousel-block">
+                        <a href="#" class="a-carousel-image-link">
+                            <img src="images/videohive.png" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="b-carousel-block">
+                        <a href="#" class="a-carousel-image-link">
+                            <img src="images/audiojungle.png" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="b-carousel-block">
+                        <a href="#" class="a-carousel-image-link">
+                            <img src="images/graphicriver.png" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="b-carousel-block"> <!-- последний элемент карусели -->
+                        <a href="#" class="a-carousel-image-link">
+                            <img src="images/photodune.png" alt="" />
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="b-carousel-button-right icon-arrow-right-circle"></div> <!-- правая кнопка -->
+        </div>
+    </div>
+</section>
+<section class="features">
+    <div class="container">
+        <header class="sections-header">
+            <h2>our features</h2>
+        </header>
+        <div class="wrapper-list-features">
+            <ul class="list-features">
+                <li class="before-left">
+                    <h4>24 hour support</h4>
+                    <p>containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus </p>
+                </li>
+                <li class="before-left security">
+                    <h4>FUll security</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+                </li>
+            </ul>
+            <div class="logo-icon">
+                <img src="images/logo-icon.png" alt="logo-icon"/>
+            </div>
+            <ul class="list-features">
+                <li class="before-right">
+                    <h4>Business boosting</h4>
+                    <p>established fact that a reader will be distracted by
+                        the readable content of a page when looking</p>
+                </li>
+                <li class="before-right creative">
+                    <h4>Creative process</h4>
+                    <p>There are many variations of passages of Ipsum avail
+                        able, but the majority have suffered alteration.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="boost">
+            <p>If you want to boost your business Contact us</p>
+            <button type="button" class="btn-back">Boost your business</button>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="top-footer">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo"/>
+            </div>
+            <ul class="top-footer-list">
+                <li class="">
+                    <h2>navigation</h2>
+                    <ul class="list-nav nav-list">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">about us</a></li>
+                        <li><a href="">industry</a></li>
+                        <li><a href="">services</a></li>
+                        <li><a href="">pages</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </li>
+                <li class="">
+                    <h2>Industary</h2>
+                    <ul class="list-nav industary">
+                        <li><a href="">Education</a></li>
+                        <li><a href="">business</a></li>
+                        <li><a href="">realestate</a></li>
+                        <li><a href="">technology</a></li>
+                        <li><a href="">banking</a></li>
+                        <li><a href="">communication</a></li>
+                        <li><a href="">much more</a></li>
+                    </ul>
+                </li>
+                <li class="news-letter">
+                    <h2>News letter</h2>
+                    <p>Enter your email address to subscribe our notification of our new post & features by email.</p>
+                    <form class="news-letter-form">
+                        <input type="email" placeholder="Email Address">
+                        <button type="submit" class="btn-back subscribe">Subscribe</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom-footer">
+            <p class="copyright">Copyright © 2017 Consultplus theme.</p>
+            <ul class="nav-social-footer">
+                <li><a href="" class="facebook">Facebook</a></li>
+                <li><a href="" class="twitter">twitter</a></li>
+                <li><a href="" class="instagram">instagram</a></li>
+                <li><a href="" class="linkedin">linkedin</a></li>
+                <li><a href="" class="google-plus">google +</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="node_modules/tether/dist/js/tether.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/js.js"></script>
+<script src="js/carousel.js"></script>
+</body>
+</html>

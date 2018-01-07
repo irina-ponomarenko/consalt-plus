@@ -3,6 +3,7 @@
 }
 .apply-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
   border-bottom: 1px solid $color-border-message;
@@ -38,6 +39,7 @@
 }
 .wrapper-account{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
   max-width: 975px;
@@ -59,6 +61,12 @@
     line-height: 28px;
     outline: none;
     border: none;
+  }
+}
+.file{
+  display: flex;
+  label{
+    margin-right: 10px;
   }
 }
 .wrapper-new{

@@ -1,3 +1,15 @@
+@media screen and (min-width:300px) and (max-width:1024px) {
+  .wrapper-list-features{
+    justify-content: center;
+    flex-wrap: wrap;
+    .before-left{
+      margin-right: 30px;
+    }
+  }
+  .logo-icon{
+    display: none;
+  }
+}
 @media screen and (min-width:300px) and (max-width:1000px) {
   .navigation {
     display: none;
@@ -60,6 +72,16 @@
   .card-img-top{
       width: 100%;
   }
+  .before-left{
+    margin-right: 0;
+  }
+}
+@media screen and (min-width:300px) and (max-width:767px) {
+  .boost{
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 @media screen and (min-width:300px) and (max-width:735px) {
   .comunication{
@@ -74,5 +96,18 @@
       margin: 0 auto;
     }
   }
-
+  .wrapper-new{
+    flex-wrap: wrap;
+  }
+  .connect{
+    .container{
+      flex-wrap: wrap;
+    }
+  }
+  .connect-info{
+    display: flex;
+  }
+  .wrapper-input{
+    flex-wrap: wrap;
+  }
 }

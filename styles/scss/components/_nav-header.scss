@@ -1,6 +1,6 @@
 .nav-header{
   width: 100%;
-  z-index: 10;
+  z-index: 1000;
 }
 .fixed{
   position: fixed;
@@ -52,10 +52,10 @@
   border-radius: 100%;
   background-color: $color-blue;
   text-align: center;
-}
-.icon-envelope-open{
-  color: $color-white;
-  font-size: $size-simple;
+  span{
+    color: $color-white;
+    font-size: $size-simple;
+  }
 }
 .navigation{
   li.active a{

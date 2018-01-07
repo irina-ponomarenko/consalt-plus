@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Contact-us</title>
+    <link href="fonts/Domine-Regular.ttf" rel="stylesheet"/>
+    <link href="fonts/Montserrat-Regular.otf" rel="stylesheet"/>
+    <link href="node_modules/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+    <link href="node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet"/>
+    <link href="styles/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header">
+    <div class="nav-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" align="logo"/>
+            </div>
+            <div class="menu">
+                <button type="button" id="btn-click-menu"><span class="icon-menu"></span></button>
+                <ul class="navigation">
+                    <li class="nav-li"><a href="">Home</a></li>
+                    <li class="nav-li"><a href="">about us</a></li>
+                    <li class="nav-li"><a href="">industry</a></li>
+                    <li class="nav-li"><a href="">services</a></li>
+                    <li class="nav-li"><a href="">pages</a></li>
+                    <li class="nav-li active"><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div id="modal_form">
+                <span id="modal_close">X</span>
+                <ul class="navigation-min">
+                    <li class="nav-li active"><a href="">Home</a></li>
+                    <li class="nav-li"><a href="">about us</a></li>
+                    <li class="nav-li"><a href="">industry</a></li>
+                    <li class="nav-li"><a href="">services</a></li>
+                    <li class="nav-li"><a href="">pages</a></li>
+                    <li class="nav-li"><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div id="overlay"></div>
+            <div class="contact-nav">
+                <div class="phone">
+                    <span class="icon-call-out"></span>
+                    <a href="tell:9156856664555">+91 5685 6664 555</a>
+                </div>
+                <div class="mail">
+                    <a href="">
+                        <span class="icon-envelope-open"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="welcome-massege">
+        <h2>Contact Us</h2>
+    </div>
+</header>
+<section class="connect">
+    <div class="container">
+        <div class="connect-info">
+            <h2>Connect us</h2>
+            <ul class="info-text">
+                <li>
+                    <div class="icon-information">
+                        <span class="icon-call-out"></span>
+                    </div>
+                    <div class="wrapper-text-li">
+                        <h5>Call Us</h5>
+                        <span>+885 6586 5554</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon-information">
+                        <span class="icon-envelope-open"></span>
+                    </div>
+                    <div class="wrapper-text-li">
+                        <h5>Email</h5>
+                        <span>info@consultplus.com</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon-information">
+                        <span class="icon-location-pin"></span>
+                    </div>
+                    <div class="wrapper-text-li">
+                        <h5>Address</h5>
+                        <span>Department 98</span>
+                        <span>44-46 Morningside Road</span>
+                        <span>Edinburgh, Scotland</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.952216149054!2d-3.212410084062471!3d55.932866280601914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c70c0bdfdccd%3A0x739396a168781a3c!2zNDQgTW9ybmluZ3NpZGUgUmQsIEVkaW5idXJnaCBFSDEwIDRCRiwg0JLQtdC70LjQutC-0LHRgNC40YLQsNC90ZbRjw!5e0!3m2!1suk!2sua!4v1515262595697" width="752" height="325" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+<section class="write-us">
+    <div class="container">
+        <h2>Write to Us</h2>
+        <form class="write">
+            <div class="wrapper-input">
+                <div class="write-name">
+                    <label for="id-name">Name</label>
+                    <input type="text" id="id-name">
+                </div>
+                <div class="write-name">
+                    <label for="id-email">Email</label>
+                    <input type="email" id="id-email">
+                </div>
+            </div>
+            <div class="wrapper-input">
+                <div class="write-name">
+                    <label for="id-phone">Phone</label>
+                    <input type="text" id="id-phone">
+                </div>
+                <div class="write-name">
+                    <label for="id-serv">Service</label>
+                    <select id="id-serv">
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </div>
+            </div>
+            <div class="write-name-area">
+                <label for="comment-id">Comment</label>
+                <textarea id="comment-id" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn-back submit">Submit Now</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="top-footer">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo"/>
+            </div>
+            <ul class="top-footer-list">
+                <li class="">
+                    <h2>navigation</h2>
+                    <ul class="list-nav nav-list">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">about us</a></li>
+                        <li><a href="">industry</a></li>
+                        <li><a href="">services</a></li>
+                        <li><a href="">pages</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </li>
+                <li class="">
+                    <h2>Industary</h2>
+                    <ul class="list-nav industary">
+                        <li><a href="">Education</a></li>
+                        <li><a href="">business</a></li>
+                        <li><a href="">realestate</a></li>
+                        <li><a href="">technology</a></li>
+                        <li><a href="">banking</a></li>
+                        <li><a href="">communication</a></li>
+                        <li><a href="">much more</a></li>
+                    </ul>
+                </li>
+                <li class="news-letter">
+                    <h2>News letter</h2>
+                    <p>Enter your email address to subscribe our notification of our new post & features by email.</p>
+                    <form class="news-letter-form">
+                        <input type="email" placeholder="Email Address">
+                        <button type="submit" class="btn-back subscribe">Subscribe</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom-footer">
+            <p class="copyright">Copyright © 2017 Consultplus theme.</p>
+            <ul class="nav-social-footer">
+                <li><a href="" class="facebook">Facebook</a></li>
+                <li><a href="" class="twitter">twitter</a></li>
+                <li><a href="" class="instagram">instagram</a></li>
+                <li><a href="" class="linkedin">linkedin</a></li>
+                <li><a href="" class="google-plus">google +</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="node_modules/tether/dist/js/tether.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/js.js"></script>
+</body>
+</html>
