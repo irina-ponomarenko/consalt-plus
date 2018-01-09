@@ -60,3 +60,11 @@ button{
     color: $color-black;
   }
 }
+.img-project{
+  border-radius: 25px;
+  border: 2px solid $color-dark-orange;
+  background: transparent;
+  padding: 0 25px;
+  color: $color-white;
+  text-transform: uppercase;
+}

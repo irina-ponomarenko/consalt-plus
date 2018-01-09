@@ -25,3 +25,11 @@
    border: 2px solid $color-lettuce;
  }
 }
+.indicators-cards{
+  position: absolute;
+  top: 85%;
+  left: 78%;
+  li{
+    width: 16px;
+  }
+}

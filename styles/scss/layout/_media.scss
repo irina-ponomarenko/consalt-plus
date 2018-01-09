@@ -1,3 +1,14 @@
+@media screen and (min-width:300px) and (max-width:1109px) {
+.indastry-wrapper{
+  flex-wrap: wrap;
+  margin: 0;
+}
+  .card-industry{
+    margin-right: 0;
+    margin-top: 38px;
+    margin-bottom: 38px;
+  }
+}
 @media screen and (min-width:300px) and (max-width:1024px) {
   .wrapper-list-features{
     justify-content: center;
@@ -8,6 +19,12 @@
   }
   .logo-icon{
     display: none;
+  }
+  .contact-card{
+    flex-wrap: wrap;
+    li{
+      margin-right: 0;
+    }
   }
 }
 @media screen and (min-width:300px) and (max-width:1000px) {
@@ -76,11 +93,18 @@
     margin-right: 0;
   }
 }
-@media screen and (min-width:300px) and (max-width:767px) {
+@media screen and (min-width:300px) and (max-width:768px) {
   .boost{
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .wrapper-card{
+    flex-wrap: wrap;
+    .card-project{
+      max-width: 100%;
+      margin-right: 0;
+    }
   }
 }
 @media screen and (min-width:300px) and (max-width:735px) {
@@ -109,5 +133,30 @@
   }
   .wrapper-input{
     flex-wrap: wrap;
+  }
+  .wrapper-blog-info{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width:300px) and (max-width:635px) {
+  .service-list{
+    flex-direction: column;
+    align-items: center;
+    .before-top{
+      margin-right: 0;
+    }
+  }
+}
+@media screen and (min-width:300px) and (max-width:579px) {
+  .card-industry{
+    flex-direction: column;
+  }
+}
+@media screen and (min-width:300px) and (max-width:430px) {
+  .indicators-cards{
+    left: 0;
+  }
+  .blog-card-our{
+    flex-direction: column;
   }
 }

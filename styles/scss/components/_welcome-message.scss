@@ -1,9 +1,11 @@
 .welcome-massege{
   padding: 16.1vh 0 16.1vh 0;
-  h2{
-    text-transform: uppercase;
-    text-align: center;
-    font-size: $size-lg;
+  .container{
+    h2{
+      text-transform: uppercase;
+      font-size: $size-lg;
+      margin: 0 auto;
+    }
   }
 }
 .home-message{

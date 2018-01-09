@@ -61,6 +61,9 @@ section{
   text-transform: uppercase;
   color: $color-grey-card;
 }
+.left-header{
+  text-align: left;
+}
 .features{
   padding-bottom: 0;
   background: $color-card-section;
@@ -75,6 +78,7 @@ section{
 .testimonials{
   background-color: $color-blue;
   position: relative;
+  padding: 0;
   .container{
     padding: 93px 0 93px 0;
     &:before{
@@ -169,5 +173,31 @@ section{
   background: $color-card-section;
   h2{
     text-align: center;
+  }
+}
+.project{
+  .container{
+    .btn-back{
+      display: flex;
+      margin: 0 auto;
+    }
+  }
+}
+.services{
+  background: $color-orange-section;
+  .container {
+    .btn-back {
+      display: flex;
+      margin: 0 auto;
+    }
+  }
+}
+.our-blog{
+  background: $color-card-section;
+  .container {
+    .btn-back {
+      display: flex;
+      margin: 0 auto;
+    }
   }
 }
