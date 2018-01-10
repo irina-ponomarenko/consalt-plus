@@ -22,3 +22,54 @@
   font-size: $size-p-content;
   line-height: 28px;
 }
+.card-top{
+  text-align: left;
+  padding: 33px 0px 33px 43px;
+  span{
+    font-size: $size-small;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  p{
+    text-transform: uppercase;
+    font-size: $size-h5;
+    color: $color-light-orange-text;
+    margin: 0;
+  }
+}
+.orange-card{
+  background: $color-orange;
+}
+.blue-card{
+  background: $color-blue;
+  p{
+    color: $color-light-text;
+  }
+}
+.green-card{
+  background: $color-green;
+  p{
+    color: $color-light-green;
+  }
+}
+.body-list{
+  text-align: left;
+  margin-left: 0 !important;
+  margin-bottom: 117px;
+  position: relative;
+}
+.position-left{
+  display: flex;
+  position: absolute;
+  bottom: 65px;
+  justify-content: center;
+}
+.border-body{
+  border: 1px solid $color-card-section;
+  &:hover{
+    box-shadow: none;
+  }
+}
+.pricing-margin{
+  margin-top: 30px;
+}
