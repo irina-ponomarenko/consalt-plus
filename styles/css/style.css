@@ -11910,6 +11910,12 @@ section {
   background: #e7eff1;
 }
 
+.quote-section {
+  background: url("../../images/quote-citate.png") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .welcome-massege {
   padding: 16.1vh 0 16.1vh 0;
 }
@@ -12251,7 +12257,7 @@ button:focus {
 }
 
 .quote h2 {
-  text-align: center;
+  margin: 0 auto;
   font-size: 32px;
   text-transform: uppercase;
   position: relative;
@@ -12983,53 +12989,44 @@ button:focus {
   border-bottom: 1px solid #cddbde;
 }
 
-.b-carousel {
+.pagination-wrapper {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: baseline;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
 }
-
-.h-carousel-wrapper {
-  width: 90%;
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.h-carousel-items {
+.pagination-wrapper a {
+  max-width: 30px;
   width: 100%;
+  font-size: 30px;
+}
+.pagination-wrapper .prev {
+  margin-right: 40px;
+}
+.pagination-wrapper .next {
+  margin-left: 40px;
+}
+
+.pagination-list {
   display: flex;
+  width: 100%;
+  align-items: center;
   justify-content: space-between;
 }
-
-.b-carousel-block {
-  width: 210px;
-  padding: 5px 6px;
+.pagination-list li {
+  height: 30px;
   opacity: 0.4;
 }
-.b-carousel-block a img {
-  height: 30px;
+.pagination-list li:last-child {
+  margin-right: 0;
 }
-
-.active-img {
-  opacity: 1;
-}
-
-.a-carousel-image-link {
-  display: block;
+.pagination-list li img {
   width: auto;
   height: 30px;
-  overflow: hidden;
 }
-
-.b-carousel-button-left, .b-carousel-button-right {
-  width: 28px;
-  height: 36px;
-  position: relative;
-  cursor: pointer;
-  color: #03b6e7;
+.pagination-list li.active {
+  opacity: 1;
 }
 
 .info-text {
@@ -13488,6 +13485,148 @@ button:focus {
   margin-top: 60px;
 }
 
+.wrapper-list-quote {
+  margin-top: 52px;
+}
+
+.quote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quote li {
+  display: flex;
+  max-width: 537px;
+  justify-content: space-between;
+}
+
+.text-qute p {
+  color: #838b8c;
+  font-size: 15px;
+  font-family: "Domine", serif;
+  margin-bottom: 40px;
+  position: relative;
+}
+.text-qute .qute-icon {
+  color: #ffac55;
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  right: -20px;
+  bottom: -50px;
+}
+.text-qute h5 {
+  color: #343a3b;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.text-qute span {
+  font-size: 13px;
+  color: #838b8c;
+  font-family: "Domine", serif;
+}
+
+.img-quote {
+  margin-right: 35px;
+}
+.img-quote img {
+  border-radius: 100%;
+}
+
+.quote-carosel {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 630px;
+  margin: 0 auto;
+  margin-right: 0;
+  position: relative;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 35px;
+}
+.quote-carosel:before {
+  content: '';
+  background: url("../../images/open-quote.png") no-repeat;
+  position: absolute;
+  color: #ffff;
+  top: -35px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 43px;
+}
+.quote-carosel:after {
+  content: '';
+  background: url("../../images/close-quote.png") no-repeat;
+  position: absolute;
+  color: #ffff;
+  top: 160px;
+  right: 0;
+  bottom: 0;
+  width: 45px;
+}
+.quote-carosel p {
+  font-size: 18px;
+  font-family: "Domine", serif;
+  margin-bottom: 30px;
+  text-align: left;
+  color: #ffff;
+}
+.quote-carosel h5 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffff;
+}
+.quote-carosel span {
+  color: #e1e1e1;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.carosel-quote-indicators {
+  height: unset;
+  bottom: -150px;
+  top: unset;
+}
+.carosel-quote-indicators li.active {
+  max-width: 100px;
+  height: 100px;
+  border: 5px solid #ffac55;
+  -webkit-box-shadow: 0px 0px 0px 10px rgba(255, 172, 85, 0.3);
+  -moz-box-shadow: 0px 0px 0px 10px rgba(255, 172, 85, 0.3);
+  box-shadow: 0px 0px 0px 10px rgba(255, 172, 85, 0.3);
+}
+.carosel-quote-indicators li {
+  margin-right: 30px;
+  background-size: cover;
+  background-position: center;
+  max-width: 94px;
+  height: 94px;
+  border: 5px solid #ffff;
+}
+.carosel-quote-indicators li:last-child {
+  margin-right: 0;
+}
+
+.li-1 {
+  background-image: url("../../images/qute-indicators-1.png") !important;
+}
+
+.li-2 {
+  background-image: url("../../images/qute-indicators-2.png") !important;
+}
+
+.li-3 {
+  background-image: url("../../images/qute-indicators-3.png") !important;
+}
+
+.li-4 {
+  background-image: url("../../images/qute-indicators-4.png") !important;
+}
+
 .header {
   background-image: url("../../images/header-baner.jpg");
   background-repeat: no-repeat;
@@ -13696,6 +13835,13 @@ button:focus {
   .nav-social-footer {
     flex-wrap: wrap;
   }
+
+  .quote {
+    flex-wrap: wrap;
+  }
+  .quote li {
+    margin: 0 auto;
+  }
 }
 @media screen and (min-width: 300px) and (max-width: 935px) {
   .about-us .container {
@@ -13718,6 +13864,19 @@ button:focus {
     margin-right: 0;
   }
 }
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  .quote-carosel {
+    width: 100%;
+    margin-right: auto;
+  }
+
+  .pagination-list {
+    flex-wrap: wrap;
+  }
+  .pagination-list li {
+    margin: 15px;
+  }
+}
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .boost {
     text-align: center;
@@ -13731,6 +13890,19 @@ button:focus {
   .wrapper-card .card-project {
     max-width: 100%;
     margin-right: 0;
+  }
+
+  .carosel-quote-indicators li {
+    max-width: 64px;
+    height: 64px;
+    margin-right: 20px;
+  }
+  .carosel-quote-indicators li:last-child {
+    margin-right: 0;
+  }
+  .carosel-quote-indicators li.active {
+    max-width: 70px;
+    height: 70px;
   }
 }
 @media screen and (min-width: 300px) and (max-width: 735px) {
@@ -13779,6 +13951,62 @@ button:focus {
 @media screen and (min-width: 300px) and (max-width: 579px) {
   .card-industry {
     flex-direction: column;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .quote-carosel p {
+    font-size: 14px;
+  }
+  .quote-carosel h5 {
+    font-size: 12px;
+  }
+  .quote-carosel span {
+    font-size: 10px;
+  }
+
+  .carosel-quote-indicators li {
+    max-width: 54px;
+    height: 54px;
+    margin-right: 15px;
+  }
+  .carosel-quote-indicators li:last-child {
+    margin-right: 0;
+  }
+  .carosel-quote-indicators li.active {
+    max-width: 60px;
+    height: 60px;
+  }
+
+  .quote-carosel:after {
+    background-size: contain;
+    max-width: 38px;
+    height: 38px;
+  }
+  .quote-carosel:before {
+    background-size: contain;
+    max-width: 38px;
+    height: 38px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  .quote-section {
+    background-position: 27%;
+  }
+
+  .carosel-quote-indicators {
+    bottom: -140px;
+  }
+  .carosel-quote-indicators li {
+    max-width: 44px;
+    height: 44px;
+    margin-right: 15px;
+  }
+  .carosel-quote-indicators li:last-child {
+    margin-right: 0;
+  }
+  .carosel-quote-indicators li.active {
+    max-width: 50px;
+    height: 50px;
   }
 }
 @media screen and (min-width: 300px) and (max-width: 430px) {

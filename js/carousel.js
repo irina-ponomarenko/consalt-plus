@@ -1,13 +1,16 @@
 $(document).ready(function(){
-    $('.b-carousel-button-right').click(function () {
-        var selectedItem = $('.h-carousel-items').find('.active-img');
-        selectedItem.removeClass('active-img');
-        selectedItem.next().addClass('active-img');
+    $('.next').click(function(){
+        var next = $('ul.pagination-list').find('li.active').removeClass('active').next();
+        next.index() < 0 &&(next = $("ul.pagination-list li:first"));
+        next.addClass('active');
+        return false;
     });
-    $('.b-carousel-button-left').click(function () {
-        var selectedItem = $('.h-carousel-items').find('.active-img');
-        selectedItem.removeClass('active-img');
-        selectedItem.prev().addClass('active-img');
+    $('.prev').click(function(){
+        var prev = $('ul.pagination-list').find('li.active').removeClass('active').prev();
+        prev.index() < 0 &&(prev = $("ul.pagination-list li:last"));
+        prev.addClass('active');
+        return false;
     });
-
 });
+
+
